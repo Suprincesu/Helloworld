@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startActivity(View view) {
         Intent i=new Intent(MainActivity.this,StudentActivity.class);
+        i.putExtra("key1","suprince");
         startActivity(i);
 
     }
